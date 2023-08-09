@@ -1,0 +1,38 @@
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-expense__control input {
+    font: inherit;
+    padding: 0.3rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.new-expense__actions {
+    text-align: right;
+    padding: 5px;
+}
+.new-expense__actionsitem {
+    /* background-color: hsl(184, 89%, 15%); */
+    background-color: black;
+    margin: 5px;
+}
+.new-expense__actionsitem:hover {
+    background-color: hsl(184, 89%, 15%);
+    cursor: pointer;
+    border: 0px;
+}
+.error {
+    color: red;
+}

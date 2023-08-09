@@ -1,0 +1,77 @@
+/* THIS IS THE PAGES FORM CSS  */
+.new-expense__controls {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+    margin-left: 1rem;
+    width: 40vw;
+
+    /* background-color: red; */
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.new-expense__control input {
+    font: inherit;
+    width: 80%;
+    padding: 0.2rem;
+    border-radius: 6px;
+    margin: 0.2rem;
+    border: 1px solid #ccc;
+}
+
+.new-expense__actions {
+    text-align: right;
+
+    padding: 3px;
+}
+.new-expense__actionsitem {
+    background-color: hsl(184, 89%, 15%);
+    margin: 5px;
+}
+.new-expense__actionsitem:hover {
+    background-color: hsl(184, 89%, 15%);
+    cursor: pointer;
+    border: 0px;
+}
+.error {
+    padding: 0px;
+    color: red;
+}
+.main_div {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 97.8vh;
+    background: white;
+    width: 98vw;
+
+    justify-content: center;
+    align-items: center;
+}
+.login_main_div {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4f0f1f4;
+    box-shadow: 2px 1px;
+    width: 60vw;
+}
+.extra {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: start;
+    text-decoration-color: hsl(184, 29%, 45%);
+}
